@@ -32,7 +32,7 @@ var colors = [
 ];
 var cur = 0;
 
-document.addEventListener('DOMContentLoaded', () => {
+
   console.log('hello rand.js');
 
   body = document.getElementById('body');
@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
     li.innerText = students[i];
     aList.append(li);
   }
-});
 
 var pickOnClick = function (event) {
   choice.innerHTML = '&nbsp;'
